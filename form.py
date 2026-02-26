@@ -4,8 +4,10 @@ d = input('Dia de nascimento: ')
 m = input('Mês de nascimento: ')
 a = input('Ano de nascimento: ')
 u = input(str('Digite sua universidade: ')).upper().strip()
-e = n.lower() + '.' + s.lower() + '@' + u.lower() + '.br'
+e = n.lower() + '.' + s.lower() + '@' + u.lower() + '.br' 
 s = 'a' + str(e.count('a'))+ 'e' + str(e.count('e')) + 'i' + str(e.count('i')) + 'o' + str(e.count('o')) + 'u' + str(e.count('u'))
 print('Seu email é: ', e)
 print('Sua senha é: ', s)
 print('Seu email é: {} e sua senha é: {}'.format(e,s))
+
+
